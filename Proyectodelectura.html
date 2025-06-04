@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Lectura</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .pdf-container {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            display: inline-block; /* Para que los contenedores se alineen uno al lado del otro */
+            width: 45%; /* Ajusta el ancho para dos columnas */
+            height: 600px; /* Altura de los visores de PDF */
+            vertical-align: top; /* Alinea en la parte superior */
+            box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
+        }
+        iframe {
+            width: 100%;
+            height: calc(100% - 30px); /* Ajusta la altura del iframe dentro del contenedor */
+            border: none;
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Proyecto de Lectura</h1>
+
+    <div class="pdf-container">
+        <h2>Lectura 1</h2>
+        <iframe src="Lectura1.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 2</h2>
+        <iframe src="Lectura2.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 3</h2>
+        <iframe src="Lectura3.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 4</h2>
+        <iframe src="Lectura4.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 5</h2>
+        <iframe src="Lectura5.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 6</h2>
+        <iframe src="Lectura6.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 7</h2>
+        <iframe src="Lectura7.pdf"></iframe>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Lectura 8</h2>
+        <iframe src="Lectura8.pdf"></iframe>
+    </div>
+
+</body>
+</html>
